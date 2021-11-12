@@ -1,0 +1,25 @@
+{
+  "alphaDialog": {
+    "buttonOk": "OK",
+    "text": "You are invited to try out first functionalities of the Handschriftenportal on a sample data set. For further information on handling and future releases, please consult the user instructions. We are looking forward to your feedback!",
+    "title": "Welcome to the test site!",
+    "trackingButton": "Web analysis",
+    "userInstructions": "User instructions"
+  },
+  "pages": {
+    "home": "Home",
+    "search": "Search",
+    "workspace": "Workspace",
+    "cms": "About us"
+  },
+  "workspaceTools": {
+    "addContent": "Add content",
+    "viewMode": "View mode",
+    "fullscreen": "Fullscreen"
+  },
+  "links": {
+    "tracking": "https://staatsbibliothek-berlin.de/en/extras/allgemeines/imprint/privacy-policy/#matomo",
+    "instructions": "https://handschriftenportal.de/test-environment/?lang=en",
+    "feedback": "https://umfragen.staatsbibliothek-berlin.de/index.php/753192?lang=en"
+  }
+}

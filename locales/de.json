@@ -1,0 +1,25 @@
+{
+  "alphaDialog": {
+    "text": "Sie haben nun die Möglichkeit, erste Funktionalitäten des \r\nHandschriftenportals an einem kleinen Beispieldatenset zu testen. \r\nInformationen zur Bedienung und zu geplanten Releases finden Sie in den \r\nNutzungshinweisen. Wir freuen uns auf Ihr Feedback.",
+    "title": "Herzlich willkommen in der Testumgebung!",
+    "trackingButton": "Webanalyse",
+    "buttonOk": "OK",
+    "userInstructions": "Nutzungshinweise"
+  },
+  "pages": {
+    "home": "Start",
+    "search": "Suche",
+    "workspace": "Arbeitsplatz",
+    "cms": "Über uns"
+  },
+  "workspaceTools": {
+    "addContent": "Inhalte hinzufügen",
+    "viewMode": "Ansichtsmodus",
+    "fullscreen": "Vollbild"
+  },
+  "links": {
+    "tracking": "https://staatsbibliothek-berlin.de/extras/allgemeines/impressum/datenschutz-privacy-policy/#c125237",
+    "instructions": "https://handschriftenportal.de/alpha-nutzungshinweise",
+    "feedback": "https://umfragen.staatsbibliothek-berlin.de/index.php/753192?lang=de"
+  }
+}

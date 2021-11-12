@@ -1,0 +1,37 @@
+#!/bin/sh
+
+set -e
+
+CONFDIR=/etc/SBB/hsp-fo-app
+RUNDIR=/var/run/SBB/hsp-fo-app
+LOGDIR=/var/log/SBB/hsp-fo-app
+
+case "$1" in
+  configure)
+    mkdir -p $RUNDIR
+    mkdir -p $LOGDIR
+
+    if ! getent passwd hsp-fo-app >/dev/null 2>&1; then
+      addgroup --system hsp-fo-app
+      GID=`getent group hsp-fo-app | cut -d: -f3`
+      adduser --system --gid $GID --no-create-home hsp-fo-app
+    fi
+        
+    chown -R hsp-fo-app:hsp-fo-app $CONFDIR
+    chown -R hsp-fo-app:hsp-fo-app $RUNDIR
+    chown -R hsp-fo-app:hsp-fo-app $LOGDIR
+  ;;
+	
+  abort-upgrade|abort-remove|abort-deconfigure)
+  ;;
+
+  *)
+    echo "postinst called with unknown argument \`$1'" >&2
+    exit 1
+  ;;
+esac
+
+update-rc.d hsp-fo-app defaults
+service hsp-fo-app start
+
+exit 0

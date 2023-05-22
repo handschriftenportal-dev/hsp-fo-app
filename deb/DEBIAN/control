@@ -1,0 +1,8 @@
+Package: hsp-fo-app
+Version: <VERSION>
+Section: misc
+Priority: optional
+Architecture: all
+Description: Handschriftenportal Web App
+Maintainer: UBL/BDD/HSP
+Depends: nodejs (>= 16.13.2-1nodesource1), logrotate

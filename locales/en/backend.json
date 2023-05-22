@@ -1,0 +1,33 @@
+{
+  "topBar": {
+    "logoLink": "Home page"
+  },
+  "description": "The handwritten books from the Middle Ages and modern times are unique cultural objects and historical sources. The Handschriftenportal (HSP) is the central online portal for these book manuscripts in German collections.",
+  "data": {
+    "object-type-display": {
+      "__field__": "Object type",
+      "codex": "Codex",
+      "collection": "Collection",
+      "composite": "Composite",
+      "fragment": "Fragment",
+      "hostVolume": "Host volume",
+      "leporello": "Leporello",
+      "miscellany": "Sammelband",
+      "other": "Other",
+      "postcard": "Postcard",
+      "printWithManuscriptParts": "Print with manuscript parts",
+      "sammelband": "Sammelband",
+      "scroll": "Scroll",
+      "singleSheet": "Single sheet",
+      "unknown": "Unknown",
+      "__MISSING__": "Manuscript"
+    }
+  },
+  "filterPanel": {
+    "filterResult": "{{numFound}} object/s"
+  },
+  "paging": {
+    "page": "page"
+  },
+  "searchResults": "Search results"
+}

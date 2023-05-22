@@ -1,0 +1,75 @@
+{
+    "alphaDialog": {
+      "buttonOk": "OK",
+      "text": "Sie haben nun die Möglichkeit, erste Funktionalitäten des \r\nHandschriftenportals an einem kleinen Beispieldatenset zu testen. \r\nInformationen zur Bedienung und zu geplanten Releases finden Sie in den \r\nNutzungshinweisen. Wir freuen uns auf Ihr Feedback.",
+      "title": "Herzlich willkommen in der Testumgebung! (Version 0.11.0)",
+      "trackingButton": "Webanalyse",
+      "userInstructions": "Nutzungshinweise"
+    },
+    "dfg": {
+      "tooltip": "Gefördert durch: Deutsche Forschungsgemeinschaft (DFG)",
+      "link": "https://www.dfg.de/"
+    },
+    "links": {
+      "accessibility": "/info/accessibility-statement",
+      "feedback": "/info/contact",
+      "legal": "/info/legal-notice-data-privacy",
+      "tracking": "https://staatsbibliothek-berlin.de/extras/allgemeines/impressum/datenschutz-privacy-policy/#c125237"
+    },
+    "languageDialog": {
+      "title": "Sprache ändern"
+    },
+    "sidebar": {
+      "misc": {
+        "accessibility": "Erklärung zur Barrierefreiheit",
+        "legal": "Impressum & Datenschutz"
+      },
+      "pages": {
+        "cms": "Über uns",
+        "home": "Start",
+        "search": "Suche",
+        "workspace": "Arbeitsplatz",
+        "projects": "Projekte"
+      },
+      "sidebar": "Seitenleiste",
+      "tools": {
+        "feedback": "Feedback",
+        "language": "Sprache",
+        "profile": "Mein Konto",
+        "profileNotAvailable": "Personalisierungen und Kontofunktionen stehen noch nicht zur Verfügung."
+      },
+      "workspaceTools": {
+        "addContent": "Inhalte hinzufügen",
+        "fullscreen": "Vollbild",
+        "viewMode": "Ansichtsmodus"
+      }
+    },
+    "topBar": {
+      "collapseSidebar": "Seitenleiste einklappen",
+      "expandSidebar": "Seitenleiste ausklappen",
+      "logo": "Logo des Handschriftenportals",
+      "logoLink": "Startseite"
+    },
+    "snackMsg": {
+      "language": "Die Anzeigesprache der Oberfläche wurde geändert"
+    },
+    "skiplinks": {
+      "accessibility": "Springen Sie zur <strong>Erklärung für Barrierefreiheit</strong>",
+      "content": "Springen Sie zum <strong>Inhalt</strong>",
+      "digitalImages": "Springen Sie zu <strong>Digitalisaten</strong>",
+      "externalWorkspace": "Öffnen Sie <strong>externe Inhalte</strong> im Arbeitsplatz",
+      "filterOptions": "Springen Sie zu den <strong>Filterfunktionen</strong>",
+      "gallery": "Springen Sie zur <strong>Bildgalerie</strong>",
+      "languageSwitch": "Change <strong>Language</strong>",
+      "manuscriptDescriptions": "Springen Sie zu <strong>Handschriftenbeschreibungen</strong>",
+      "resultNav": "Springen Sie zur <strong>Treffernavigation</strong>",
+      "searchBarSelect": "Springen Sie zur <strong>Suche</strong>",
+      "searchHit": "Springen Sie zum <strong>ersten Treffer</strong>",
+      "sideBarMenu": "Springen Sie zum <strong>Menü</strong>",
+      "pageNav": "Springen Sie zur <strong>Seitenauswahl</strong>",
+      "hsp-descriptions": "Springen Sie zu <strong>Handschriftenbeschreibungen</strong>",
+      "hsp-digitizeds": "Springen Sie zu <strong>Digitalisaten</strong>"
+    },
+    "description": "Die handgeschriebenen Bücher aus Mittelalter und Neuzeit sind unikale Kulturobjekte und einmalige historische Quellen. Das Handschriftenportal (HSP) ist das zentrale Online-Portal für diese Buchhandschriften in deutschen Sammlungen."
+  }
+  

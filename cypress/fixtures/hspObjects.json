@@ -1,0 +1,128 @@
+{
+    "payload": [
+      {
+        "hspObject": {
+          "group-id": "HSP-85f45fa6-8261-38c4-8d09-ff90e1c528b5",
+          "id": "HSP-85f45fa6-8261-38c4-8d09-ff90e1c528b5",
+          "type": "hsp:object",
+          "repository-display": "Staats- und Stadtbibliothek Augsburg",
+          "settlement-display": "Augsburg",
+          "title-display": "Topo-chronographia reipublicae Norimbergensis"
+        },
+        "hspDescriptions": [],
+        "hspDigitizeds": []
+      },
+      {
+        "hspObject": {
+          "group-id": "HSP-a1ce8bcd-bdb2-3d22-b201-f9de1e008400",
+          "id": "HSP-a1ce8bcd-bdb2-3d22-b201-f9de1e008400",
+          "type": "hsp:object",
+          "repository-display": "Staats- und Stadtbibliothek Augsburg",
+          "settlement-display": "Augsburg",
+          "title-display": "Johannes Tillmann: Methodus referendi · Supplikationen · Varia"
+        },
+        "hspDescriptions": [],
+        "hspDigitizeds": []
+      },
+      {
+        "hspObject": {
+          "group-id": "HSP-14c8e198-0c4e-3a25-a423-4b7d9b5a5e8e",
+          "id": "HSP-14c8e198-0c4e-3a25-a423-4b7d9b5a5e8e",
+          "type": "hsp:object",
+          "repository-display": "Staats- und Stadtbibliothek Augsburg",
+          "settlement-display": "Augsburg",
+          "title-display": "Petrus Peregrinus de Maricourt · De lapidibus et planetis"
+        },
+        "hspDescriptions": [],
+        "hspDigitizeds": []
+      },
+      {
+        "hspObject": {
+          "group-id": "HSP-6aa29b04-1642-34d7-82b6-dde9ac599cea",
+          "id": "HSP-6aa29b04-1642-34d7-82b6-dde9ac599cea",
+          "type": "hsp:object",
+          "repository-display": "Staats- und Stadtbibliothek Augsburg",
+          "settlement-display": "Augsburg",
+          "title-display": "Medizinische Rezepte"
+        },
+        "hspDescriptions": [],
+        "hspDigitizeds": []
+      },
+      {
+        "hspObject": {
+          "group-id": "HSP-e3468536-522b-324f-a340-7014b6bb4568",
+          "id": "HSP-e3468536-522b-324f-a340-7014b6bb4568",
+          "type": "hsp:object",
+          "repository-display": "Staats- und Stadtbibliothek Augsburg",
+          "settlement-display": "Augsburg",
+          "title-display": "Alchimistische Rezepte"
+        },
+        "hspDescriptions": [],
+        "hspDigitizeds": []
+      },
+      {
+        "hspObject": {
+          "group-id": "HSP-c09e1539-91c8-3b65-bd81-68ac71cf5337",
+          "id": "HSP-c09e1539-91c8-3b65-bd81-68ac71cf5337",
+          "type": "hsp:object",
+          "repository-display": "Staats- und Stadtbibliothek Augsburg",
+          "settlement-display": "Augsburg",
+          "title-display": "Medizinische und Kochrezepte"
+        },
+        "hspDescriptions": [],
+        "hspDigitizeds": []
+      },
+      {
+        "hspObject": {
+          "group-id": "HSP-c9b33208-2413-3760-9e99-eb37152a0cd5",
+          "id": "HSP-c9b33208-2413-3760-9e99-eb37152a0cd5",
+          "type": "hsp:object",
+          "repository-display": "Bundesverwaltungsgericht, Bibliothek",
+          "settlement-display": "Leipzig",
+          "status-display": "existent",
+          "title-display": "Passionale: 10. und 11. Mai (Fragm.)"
+        },
+        "hspDescriptions": [],
+        "hspDigitizeds": []
+      },
+      {
+        "hspObject": {
+          "group-id": "HSP-992f9e6a-c784-342b-99f9-56773882b042",
+          "id": "HSP-992f9e6a-c784-342b-99f9-56773882b042",
+          "type": "hsp:object",
+          "repository-display": "Staats- und Stadtbibliothek Augsburg",
+          "settlement-display": "Augsburg",
+          "title-display": "Topo-chronographia reipublicae Norimbergensis"
+        },
+        "hspDescriptions": [],
+        "hspDigitizeds": []
+      },
+      {
+        "hspObject": {
+          "group-id": "HSP-c1b8d0f2-b4c2-3967-b0af-12f7e0d2efb9",
+          "id": "HSP-c1b8d0f2-b4c2-3967-b0af-12f7e0d2efb9",
+          "type": "hsp:object",
+          "repository-display": "Staats- und Stadtbibliothek Augsburg",
+          "settlement-display": "Augsburg",
+          "title-display": "Alchimistische und medizinische Rezepte"
+        },
+        "hspDescriptions": [],
+        "hspDigitizeds": []
+      },
+      {
+        "hspObject": {
+          "group-id": "HSP-1b95591d-3d56-3acd-abb9-c218c59f88e3",
+          "id": "HSP-1b95591d-3d56-3acd-abb9-c218c59f88e3",
+          "type": "hsp:object",
+          "repository-display": "Staats- und Stadtbibliothek Augsburg",
+          "settlement-display": "Augsburg",
+          "title-display": "Rossarznei"
+        },
+        "hspDescriptions": [],
+        "hspDigitizeds": []
+      }
+    ],
+    "metadata": {
+      "numFound": 10
+    }
+  }

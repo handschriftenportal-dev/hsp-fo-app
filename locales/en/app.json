@@ -1,0 +1,74 @@
+{
+  "alphaDialog": {
+    "buttonOk": "OK",
+    "text": "You are invited to try out first functionalities of the Handschriftenportal on a sample data set. For further information on handling and future releases, please consult the user instructions. We are looking forward to your feedback!",
+    "title": "Welcome to the test site! (Version 0.11.0)",
+    "trackingButton": "Web analysis",
+    "userInstructions": "User instructions"
+  },
+  "dfg": {
+    "tooltip": "Funded by: German Research Foundation (DFG)",
+    "link": "https://www.dfg.de/"
+  },
+  "links": {
+    "accessibility": "/info/accessibility-statement",
+    "feedback": "/info/contact",
+    "legal": "/info/legal-notice-data-privacy",
+    "tracking": "https://staatsbibliothek-berlin.de/en/extras/allgemeines/imprint/privacy-policy/#matomo"
+  },
+  "languageDialog": {
+    "title": "Change language"
+  },
+  "sidebar": {
+    "misc": {
+      "accessibility": "Accessibility Statement",
+      "legal": "Legal Notice & Data Privacy"
+    },
+    "pages": {
+      "cms": "About us",
+      "home": "Home",
+      "search": "Search",
+      "workspace": "Workspace",
+      "projects": "Projects"
+    },
+    "sidebar": "Sidebar",
+    "tools": {
+      "feedback": "Feedback",
+      "language": "Language",
+      "profile": "My account",
+      "profileNotAvailable": "Customization and account functionalities are not yet available."
+    },
+    "workspaceTools": {
+      "addContent": "Add content",
+      "fullscreen": "Fullscreen",
+      "viewMode": "View mode"
+    }
+  },
+  "topBar": {
+    "collapseSidebar": "Collapse sidebar",
+    "expandSidebar": "Expand sidebar",
+    "logo": "Logo of the  Manuscript Portal",
+    "logoLink": "Home page"
+  },
+  "snackMsg": {
+    "language": "The display language of the user interface has been changed."
+  },
+  "skiplinks": {
+    "accessibility": "Go to <strong>accessibility statement</strong>",
+    "content": "Go to <strong>content</strong>",
+    "digitalImages": "Go to <strong>digital iamges</strong>",
+    "externalWorkspace": "Open <strong>external content</strong> in workspace",
+    "filterOptions": "Go to <strong>filter functionalities</strong>",
+    "gallery": "Go to <strong>image gallery</strong>",
+    "languageSwitch": "Wechseln Sie die <strong>Sprache</strong>",
+    "manuscriptDescriptions": "Go to <strong>manuscript descriptions</strong>",
+    "pageNav": "Go to <strong>page navigation</strong>",
+    "searchBarSelect": "Go to <strong>search</strong>",
+    "searchHit": "Go to <strong>first result</strong>",
+    "sideBarMenu": "Go to <strong>menu</strong>",
+    "resultNav": "Go to <strong>result navigation</strong>",
+    "hsp-descriptions": "Go to <strong>manuscript descriptions</strong>",
+    "hsp-digitizeds": "Go to <strong>digital images</strong>"
+  },
+  "description": "The handwritten books from the Middle Ages and modern times are unique cultural objects and historical sources. The Handschriftenportal (HSP) is the central online portal for these book manuscripts in German collections."
+}

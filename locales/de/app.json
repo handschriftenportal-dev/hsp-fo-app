@@ -1,0 +1,139 @@
+{
+  "catalog": {
+    "catalog-author-facet": "Autoren",
+    "catalog-publish-year-facet": "Publikationsjahr",
+    "catalog-publisher-facet": "Verlag",
+    "catalog-repository-facet": "Einrichtung",
+    "filterApply": "Anwenden",
+    "fulltext-facet": "Volltext",
+    "notificationText": "Greifen Sie hier auf alle aktuell im <strong>Volltext verfügbaren Kataloge</strong> zu.<br>Die bisherige Übersicht aller relevanten Bestände und Kataloge finden Sie nun im <Link>Info-Bereich<Icon/></Link>"
+  },
+  "description": "Die handgeschriebenen Bücher aus Mittelalter und Neuzeit sind unikale Kulturobjekte und einmalige historische Quellen. Das Handschriftenportal (HSP) ist das zentrale Online-Portal für diese Buchhandschriften in deutschen Sammlungen.",
+  "dfg": {
+    "link": "https://www.dfg.de/",
+    "tooltip": "Gefördert durch: Deutsche Forschungsgemeinschaft (DFG)"
+  },
+  "errorPage": {
+    "backToHome": "Zurück zur Startseite",
+    "failed": "Ein Fehler ist aufgetreten.",
+    "failedMsg": "Diese Seite konnte leider nicht geladen werden. Versuchen Sie es später erneut oder melden Sie den Fehler unserem <Link>Handschriftenportal-Team</Link>.",
+    "serviceMail": "handschriftenportal@sbb.spk-berlin.de"
+  },
+  "home": {
+    "carouselDotLabel": "Vorschaubilder Karussell",
+    "image": "Bild",
+    "loading": "Inhalte werden geladen.",
+    "loadingError": "Inhalte konnten nicht geladen werden.",
+    "next": "Nächstes Bild",
+    "previous": "Letztes Bild"
+  },
+  "links": {
+    "accessibility": "/info/accessibility-statement",
+    "feedback": "/info/contact",
+    "legal": "/info/legal-notice-data-privacy",
+    "tracking": "https://staatsbibliothek-berlin.de/extras/allgemeines/impressum/datenschutz-privacy-policy/#c125237"
+  },
+  "notifications": {
+    "language": "Die Anzeigesprache der Oberfläche wurde geändert",
+    "loadingMsg": "Die Suchanfrage dauert länger als erwartet. Bitte haben Sie etwas Geduld."
+  },
+  "projects": {
+    "all": "Alle",
+    "back": "Zurück zur Projektliste",
+    "close": "Schließen",
+    "detailPage": {
+      "additionalInfo": "Weiterführende Informationen",
+      "manuscriptListing": "Handschriften",
+      "publications": "Publikationen",
+      "shortDescription": "Kurzbeschreibung"
+    },
+    "finished": "Abgeschlossen",
+    "more": "Mehr lesen",
+    "next": "Nächstes Bild",
+    "open": "Öffnen",
+    "previous": "Letztes Bild",
+    "running": "Laufend",
+    "show": "Zeige die Handschriften",
+    "table": {
+      "contact": "Kontakt",
+      "id": "ID",
+      "involved": "Projektbeteiligte",
+      "involvedInstitutions": "Durchführende Institutionen",
+      "links": "Links",
+      "runningTime": "Laufzeit",
+      "support": "Förderung"
+    },
+    "thumbnailFor": "Vorschaubild für"
+  },
+  "sidebar": {
+    "misc": {
+      "accessibility": "Erklärung zur Barrierefreiheit",
+      "legal": "Impressum & Datenschutz"
+    },
+    "pages": {
+      "catalogs": "Kataloge",
+      "cms": "Über uns",
+      "content": "Bestände",
+      "contentOpen": "Bestände & Kataloge",
+      "home": "Start",
+      "projects": "Projekte",
+      "search": "Suche",
+      "workspace": "Arbeitsplatz"
+    },
+    "sidebar": "Seitenleiste",
+    "tools": {
+      "feedback": "Feedback",
+      "language": "Sprache",
+      "profile": "Mein Konto",
+      "profileNotAvailable": "Personalisierungen und Kontofunktionen stehen noch nicht zur Verfügung."
+    },
+    "workspaceCaption": {
+      "add": "Hinzufügen",
+      "fullscreen": "Vollbild",
+      "view": "Ansicht",
+      "windows": "Fenster"
+    },
+    "workspaceTools": {
+      "addContent": "Inhalte hinzufügen",
+      "fullscreen": "Vollbild",
+      "openWindows": "Offene Fenster",
+      "viewMode": "Ansichtsmodus"
+    }
+  },
+  "skiplinks": {
+    "accessibility": "Springen Sie zur <strong>Erklärung für Barrierefreiheit</strong>",
+    "content": "Springen Sie zum <strong>Inhalt</strong>",
+    "digitalImages": "Springen Sie zu <strong>Digitalisaten</strong>",
+    "externalWorkspace": "Öffnen Sie <strong>externe Inhalte</strong> im Arbeitsplatz",
+    "filterOptions": "Springen Sie zu den <strong>Filterfunktionen</strong>",
+    "flipcard": "Springen Sie zum <strong>ersten Projekt</strong>",
+    "gallery": "Springen Sie zur <strong>Bildgalerie</strong>",
+    "hsp-descriptions": "Springen Sie zu <strong>Handschriftenbeschreibungen</strong>",
+    "hsp-digitizeds": "Springen Sie zu <strong>Digitalisaten</strong>",
+    "languageSwitch": "Change <strong>Language</strong>",
+    "manuscriptDescriptions": "Springen Sie zu <strong>Handschriftenbeschreibungen</strong>",
+    "pageNav": "Springen Sie zur <strong>Seitenauswahl</strong>",
+    "resultNav": "Springen Sie zur <strong>Treffernavigation</strong>",
+    "searchBarSelect": "Springen Sie zur <strong>Suche</strong>",
+    "searchHit": "Springen Sie zum <strong>ersten Treffer</strong>",
+    "sideBarMenu": "Springen Sie zum <strong>Menü</strong>"
+  },
+  "socialLinks": {
+    "link": {
+      "bluesky": "https://bsky.app/profile/hsprtl.bsky.social",
+      "mastodon": "https://openbiblio.social/@hsprtl",
+      "newsletter": "https://blog.sbb.berlin/handschriftenportal-newsletter/"
+    },
+    "tooltip": {
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "newsletter": "Newsletter"
+    }
+  },
+  "topBar": {
+    "collapseSidebar": "Seitenleiste einklappen",
+    "expandSidebar": "Seitenleiste ausklappen",
+    "logo": "Logo des Handschriftenportals",
+    "logoLink": "Startseite"
+  }
+}

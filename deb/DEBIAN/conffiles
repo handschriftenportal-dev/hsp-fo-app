@@ -1,0 +1,3 @@
+/etc/SBB/hsp-fo-app/hsp-fo-app.conf
+/etc/logrotate.d/hsp-fo-app.logrotate
+/etc/tmpfiles.d/hsp-fo-app-tmpfiles.conf

@@ -1,0 +1,33 @@
+{
+  "topBar": {
+    "logoLink": "Startseite"
+  },
+  "description": "Die handgeschriebenen Bücher aus Mittelalter und Neuzeit sind unikale Kulturobjekte und einmalige historische Quellen. Das Handschriftenportal (HSP) ist das zentrale Online-Portal für diese Buchhandschriften in deutschen Sammlungen.",
+  "data": {
+    "object-type-display": {
+      "__field__": "Objekttyp",
+      "codex": "Codex",
+      "collection": "Sammlung",
+      "composite": "Zusammengesetzte Handschrift",
+      "fragment": "Fragment",
+      "hostVolume": "Druck als Trägerband",
+      "leporello": "Leporello",
+      "miscellany": "Sammelband",
+      "other": "Sonstiges",
+      "postcard": "Postkarte",
+      "printWithManuscriptParts": "Druck mit handschriftlichen Anteilen",
+      "sammelband": "Sammelband",
+      "scroll": "Rotulus",
+      "singleSheet": "Einblatthandschrift",
+      "unknown": "Unbekannt",
+      "__MISSING__": "Handschrift"
+    }
+  },
+  "filterPanel": {
+    "filterResult": "{{numFound}} Handschrift/en"
+  },
+  "paging": {
+    "page": "Seite"
+  },
+  "searchResults": "Suchergebnisse"
+}

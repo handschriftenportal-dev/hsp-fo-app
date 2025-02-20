@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/language</title>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Styleguide-/-Icons" transform="translate(-394.000000, -317.000000)">
+            <g id="Group-2" transform="translate(395.000000, 318.000000)">
+                <circle id="Oval" fill="#000000" cx="10" cy="10" r="9"></circle>
+                <line x1="0" y1="10" x2="20" y2="10" id="Line" stroke="#FFFFFF" stroke-linecap="square"></line>
+                <line x1="10" y1="20" x2="10" y2="0" id="Line" stroke="#FFFFFF" stroke-linecap="square"></line>
+                <ellipse id="Oval" stroke="#FFFFFF" cx="10" cy="10" rx="5" ry="9"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

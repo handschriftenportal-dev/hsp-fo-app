@@ -1,0 +1,139 @@
+{
+  "catalog": {
+    "catalog-author-facet": "Authors",
+    "catalog-publish-year-facet": "Year of publication",
+    "catalog-publisher-facet": "Publisher",
+    "catalog-repository-facet": "Institution",
+    "filterApply": "Apply",
+    "fulltext-facet": "Full text",
+    "notificationText": "Access all <strong>catalogues currently available in full text</strong> here.<br>The previous overview of all relevant content and catalogues can now be found in the <Link>info area</Icon></Link>"
+  },
+  "description": "The handwritten books from the Middle Ages and modern times are unique cultural objects and historical sources. The Handschriftenportal (HSP) is the central online portal for these book manuscripts in German collections.",
+  "dfg": {
+    "link": "https://www.dfg.de/",
+    "tooltip": "Funded by: German Research Foundation (DFG)"
+  },
+  "errorPage": {
+    "backToHome": "Back to home page",
+    "failed": "An error occured.",
+    "failedMsg": "Sorry, this page could not be loaded. Please try again later or report the error to our <Link>Handschriftenportal team</Link>.",
+    "serviceMail": "handschriftenportal@sbb.spk-berlin.de"
+  },
+  "home": {
+    "carouselDotLabel": "Preview images carousel",
+    "image": "Image",
+    "loading": "Loading content",
+    "loadingError": "Content could not be loaded.",
+    "next": "Next Image",
+    "previous": "Previous Image"
+  },
+  "links": {
+    "accessibility": "/info/accessibility-statement",
+    "feedback": "/info/contact",
+    "legal": "/info/legal-notice-data-privacy",
+    "tracking": "https://staatsbibliothek-berlin.de/en/extras/allgemeines/imprint/privacy-policy/#matomo"
+  },
+  "notifications": {
+    "language": "The display language of the user interface has been changed.",
+    "loadingMsg": "The search is taking longer than expected. Please be patient."
+  },
+  "projects": {
+    "all": "All",
+    "back": "Back to project list",
+    "close": "Close",
+    "detailPage": {
+      "additionalInfo": "Additional information",
+      "manuscriptListing": "Manuscripts",
+      "publications": "Publications",
+      "shortDescription": "Short description"
+    },
+    "finished": "Completed",
+    "more": "Read more",
+    "next": "Next Image",
+    "open": "Open",
+    "previous": "Previous Image",
+    "running": "Current",
+    "show": "Show the manuscripts",
+    "table": {
+      "contact": "Contact",
+      "id": "ID",
+      "involved": "Involved",
+      "involvedInstitutions": "Implementing Institutions",
+      "links": "Links",
+      "runningTime": "Runtime",
+      "support": "Support"
+    },
+    "thumbnailFor": "Thumbnail for"
+  },
+  "sidebar": {
+    "misc": {
+      "accessibility": "Accessibility Statement",
+      "legal": "Legal Notice & Data Privacy"
+    },
+    "pages": {
+      "catalogs": "Calalogues",
+      "cms": "About us",
+      "content": "Content",
+      "contentOpen": "Content & catalogues",
+      "home": "Home",
+      "projects": "Projects",
+      "search": "Search",
+      "workspace": "Workspace"
+    },
+    "sidebar": "Sidebar",
+    "tools": {
+      "feedback": "Feedback",
+      "language": "Language",
+      "profile": "My account",
+      "profileNotAvailable": "Customization and account functionalities are not yet available."
+    },
+    "workspaceCaption": {
+      "add": "Add",
+      "fullscreen": "Full screen",
+      "view": "View",
+      "windows": "Windows"
+    },
+    "workspaceTools": {
+      "addContent": "Add content",
+      "fullscreen": "Fullscreen",
+      "openWindows": "Open windows",
+      "viewMode": "View mode"
+    }
+  },
+  "skiplinks": {
+    "accessibility": "Go to <strong>accessibility statement</strong>",
+    "content": "Go to <strong>content</strong>",
+    "digitalImages": "Go to <strong>digital iamges</strong>",
+    "externalWorkspace": "Open <strong>external content</strong> in workspace",
+    "filterOptions": "Go to <strong>filter functionalities</strong>",
+    "flipcard": "Go to <strong>first project</strong>",
+    "gallery": "Go to <strong>image gallery</strong>",
+    "hsp-descriptions": "Go to <strong>manuscript descriptions</strong>",
+    "hsp-digitizeds": "Go to <strong>digital images</strong>",
+    "languageSwitch": "Wechseln Sie die <strong>Sprache</strong>",
+    "manuscriptDescriptions": "Go to <strong>manuscript descriptions</strong>",
+    "pageNav": "Go to <strong>page navigation</strong>",
+    "resultNav": "Go to <strong>result navigation</strong>",
+    "searchBarSelect": "Go to <strong>search</strong>",
+    "searchHit": "Go to <strong>first result</strong>",
+    "sideBarMenu": "Go to <strong>menu</strong>"
+  },
+  "socialLinks": {
+    "link": {
+      "bluesky": "https://bsky.app/profile/hsprtl.bsky.social",
+      "mastodon": "https://openbiblio.social/@hsprtl",
+      "newsletter": "https://blog.sbb.berlin/handschriftenportal-newsletter/"
+    },
+    "tooltip": {
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "newsletter": "Newsletter"
+    }
+  },
+  "topBar": {
+    "collapseSidebar": "Collapse sidebar",
+    "expandSidebar": "Expand sidebar",
+    "logo": "Logo of the  Manuscript Portal",
+    "logoLink": "Home page"
+  }
+}

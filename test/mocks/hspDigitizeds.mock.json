@@ -1,0 +1,65 @@
+{
+  "hspDigitizeds": [
+    {
+      "digitization-organization-display": "Herzog August Bibliothek Wolfenbüttel",
+      "digitization-place-display": "Wolfenbüttel",
+      "external-uri-display": "https://diglib.hab.de/mss/ed000036/start.htm",
+      "group-id": "HSP-0076a767-a262-3205-984d-fd2d295ad4f3",
+      "id": "0680d0af-9d77-411b-90d6-b8036eab02f3",
+      "issuing-date-display": "20218-11-23T23:00:00.000+00:00",
+      "subtype-display": "completeFromOriginal",
+      "test-type": "no thumbnail",
+      "type": "hsp:digitized"
+    },
+    {
+      "digitization-organization-display": "Herzog August Bibliothek Wolfenbüttel",
+      "digitization-place-display": "Wolfenbüttel",
+      "external-uri-display": "https://diglib.hab.de/mss/ed000036/start.htm",
+      "group-id": "HSP-0076a767-a262-3205-984d-fd2d295ad4f3",
+      "id": "0680d0af-9d77-411b-90d6-b8036eab02f3",
+      "issuing-date-display": "2018-11-23T23:00:00.000+00:00",
+      "subtype-display": "completeFromOriginal",
+      "test-type": "oldest non-iiif with thumbnail",
+      "thumbnail-uri-display": "https://diglib.hab.de/mss/ed000036/thumbs/00001.jpg",
+      "type": "hsp:digitized"
+    },
+    {
+      "digitization-organization-display": "Universitätsbibliothek Freiburg",
+      "digitization-place-display": "Freiburg im Breisgau",
+      "external-uri-display": "https://digi-proxy.ub.uni-freiburg.de/diglit/hs406",
+      "group-id": "HSP-3dabbe9a-a537-35d7-8fa6-5c5e62b23750",
+      "id": "56ca815e-f1ed-4dbf-bf38-43ab9e765f22",
+      "issuing-date-display": "2020-11-23T23:00:00.000+00:00",
+      "subtype-display": "completeFromOriginal",
+      "test-type": "youngest non-iiif with thumbnail",
+      "thumbnail-uri-display": "https://digi-proxy.ub.uni-freiburg.de/diglitData/introimage/hs406.jpg",
+      "type": "hsp:digitized"
+    },
+    {
+      "digitization-organization-display": "Bayerische Staatsbibliothek",
+      "digitization-place-display": "München",
+      "external-uri-display": "http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00087339-3",
+      "group-id": "HSP-129742ce-917e-3c6b-8108-2d49eab37256",
+      "id": "b8e89c44-4d96-4bde-b695-f0a0d2dfd82e",
+      "issuing-date-display": "2019-11-23T23:00:00.000+00:00",
+      "manifest-uri-display": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00087339/manifest",
+      "subtype-display": "completeFromOriginal",
+      "test-type": "youngest iiif with thumbnail",
+      "thumbnail-uri-display": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00087339_00003/full/280,/0/default.jpg",
+      "type": "hsp:digitized"
+    },
+    {
+      "digitization-organization-display": "Bayerische Staatsbibliothek",
+      "digitization-place-display": "München",
+      "external-uri-display": "http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00087188-9",
+      "group-id": "HSP-461982ca-097f-381d-b6fa-ffe872bca67d",
+      "id": "c5e33c80-ab52-4e54-b6b6-cdbe386ab164",
+      "issuing-date-display": "2018-11-23T23:00:00.000+00:00",
+      "manifest-uri-display": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00087188/manifest",
+      "subtype-display": "completeFromOriginal",
+      "test-type": "oldest iiif with thumbnail",
+      "thumbnail-uri-display": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00087188_00003/full/280,/0/default.jpg",
+      "type": "hsp:digitized"
+    }
+  ]
+}

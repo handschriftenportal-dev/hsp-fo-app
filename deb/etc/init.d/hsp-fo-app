@@ -1,0 +1,132 @@
+#!/bin/bash
+
+### BEGIN INIT INFO
+# Provides:          hsp-fo-app
+# Required-Start:    $local_fs $network $syslog
+# Required-Stop:     $local_fs $network $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: hsp-fo-app
+# Description:       hsp-fo-app
+### END INIT INFO
+
+NAME=hsp-fo-app
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+WORKDIR=/usr/local/SBB/usr/local/hsp-fo-app
+CONFDIR=/etc/SBB/$NAME
+DAEMON=`which node`
+DAEMONARGS="server/start.js"
+USER=$NAME
+GROUP=$NAME
+PIDFILE=/run/SBB/$NAME/$NAME.pid
+LOGFILE=/data/log/$NAME/$NAME.log
+# Initialize stop wait time if not provided by the config file
+STOP_WAIT_TIME="60"
+
+# Include functions 
+set -e
+. /lib/lsb/init-functions
+
+# source main config file
+. $CONFDIR/$NAME.conf
+
+
+# ANSI Colors
+echoRed() { echo $'\e[0;31m'"$1"$'\e[0m'; }
+echoGreen() { echo $'\e[0;32m'"$1"$'\e[0m'; }
+echoYellow() { echo $'\e[0;33m'"$1"$'\e[0m'; }
+
+start() {
+
+  # HSP_ENVIRONMENT is defined in $CONFDIR/$NAME.conf
+  case "$HSP_ENVIRONMENT" in
+    dev)
+      . $CONFDIR/env-dev.sh
+      ;;
+    test)
+      . $CONFDIR/env-test.sh
+      ;;
+    stage)
+      . $CONFDIR/env-stage.sh
+      ;;
+    prod)
+      . $CONFDIR/env-prod.sh
+      ;;
+    *)
+      echo "Error in /etc/default/$NAME: expect HSP_ENVIRONMENT={dev|test|stage|prod}" >&2
+      exit 1
+      ;;
+  esac
+
+  # workaround: executing stop, because when start is executed twice without stop in between
+  # the old process stays alive, the new process immediately dies
+  # the old process pid becomes unreachable for start-stop-daemon,
+  # as the PIDFILE is overwritten the briefly alive new pid
+  stop &> /dev/null
+
+  printf "Starting '$NAME'... "
+  start-stop-daemon --start --quiet \
+        --chuid "$USER" \
+        --name "$NAME" \
+        --make-pidfile --pidfile "$PIDFILE" \
+        --background --no-close \
+        --startas "$DAEMON" \
+        --chdir "$WORKDIR" \
+        -- "$DAEMONARGS" \
+        >> "$LOGFILE" 2>&1
+  printf "done\n"
+}
+
+stop() {
+  [[ -f $PIDFILE ]] || { echoYellow "Not running (pidfile not found)"; return 0; }
+  pid=$(cat "$PIDFILE")
+  isRunning "$pid" || { echoYellow "Not running (process ${pid}). Removing stale pid file."; rm -f "$PIDFILE"; return 0; }
+  do_stop "$pid" "$PIDFILE"
+}
+
+do_stop() {
+  kill "$1" &> /dev/null || { echoRed "Unable to kill process $1"; return 1; }
+  for i in $(seq 1 $STOP_WAIT_TIME); do
+    isRunning "$1" || { echoGreen "Stopped [$1]"; rm -f "$2"; return 0; }
+    [[ $i -eq STOP_WAIT_TIME/2 ]] && kill "$1" &> /dev/null
+    sleep 1
+  done
+  echoRed "Unable to kill process $1";
+  return 1;
+}
+
+
+status() {
+#  status_of_proc $PIDFILE "" $NAME && exit 0 || exit $?
+  pid=$(cat $PIDFILE)
+  ps -p "$pid" && echo "Running... " || { echo "Not running (process $pid not found)"; exit 1; }
+  exit 0
+}
+
+isRunning() {
+  ps -p "$1" &> /dev/null
+}
+
+
+
+case "$1" in
+  start)
+    start
+    ;;
+  stop)
+    stop
+    ;;
+  restart)
+    stop
+    start
+    ;;
+  status)
+    status
+    ;;
+  *)
+    echo "Usage: $NAME {start|stop|restart|status}" >&2
+    exit 1
+    ;;
+esac
+
+exit 0

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+set -e
+
+update-rc.d -f hsp-fo-app remove

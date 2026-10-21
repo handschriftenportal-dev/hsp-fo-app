@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="17px" viewBox="0 0 16 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon / search</title>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Styleguide-/-Icons" transform="translate(-228.000000, -319.000000)" stroke="#000000" stroke-width="3">
+            <g id="Group" transform="translate(228.000000, 319.000000)">
+                <g id="Group-5" transform="translate(1.000000, 1.000000)">
+                    <path d="M11.0608,5.7806 C11.0608,8.6976 8.6968,11.0616 5.7808,11.0616 C2.8648,11.0616 0.4998,8.6976 0.4998,5.7806 C0.4998,2.8636 2.8648,0.4996 5.7808,0.4996 C8.6968,0.4996 11.0608,2.8636 11.0608,5.7806 Z" id="Stroke-1"></path>
+                    <line x1="9.2698" y1="9.741" x2="13.9848" y2="14.456" id="Stroke-3"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

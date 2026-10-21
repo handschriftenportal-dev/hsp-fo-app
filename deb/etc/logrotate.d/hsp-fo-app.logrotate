@@ -1,0 +1,10 @@
+/data/log/hsp-fo-app/*log {
+        daily
+        missingok
+        rotate 90
+        sharedscripts
+        compress
+        delaycompress
+        notifempty
+        copytruncate
+}

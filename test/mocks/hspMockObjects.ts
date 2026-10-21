@@ -1,0 +1,60 @@
+import { HspObject } from 'src/contexts/discovery'
+
+export const hspMockNormObject: HspObject = {
+  'dimensions-display': ['187,5 × 70,5'],
+  'format-display': ['folio'],
+  'group-id': 'HSP-42c287a3-3459-32f2-a7c4-7a911d72cd18',
+  id: 'HSP-42c287a3-3459-32f2-a7c4-7a911d72cd18',
+  'idno-display': 'Tabula',
+  'illuminated-display': 'yes',
+  'language-display': ['la', 'de'],
+  'material-display': ['Pergament'],
+  'object-type-display': 'other',
+  'orig-date-lang-display': ['1493'],
+  'orig-place-display': ['Süddeutschland / Bayern (?)'],
+  'persistent-url-display':
+    'https://resolver.staatsbibliothek-berlin.de/HSP00035A1A00000000',
+  'repository-display': 'Staats- und Stadtbibliothek Augsburg',
+  'settlement-display': 'Augsburg',
+  'status-display': 'existent',
+  'title-display': 'Petrus Wagner',
+  type: 'hsp:object',
+  'settlement-authority-file-display': [
+    'NORM-175b489e-555f-38e4-9371-cc7a4336ba97',
+  ],
+  'orig-place-authority-file-display': [
+    'NORM-175b489e-555f-38e4-9371-cc7a4336ba97',
+    'NORM-21dba34d-74f8-31cb-8d42-e34579c40946',
+  ],
+  'repository-authority-file-display': [],
+  'former-ms-identifier-display': null,
+  'has-notation-display': null,
+  'leaves-count-display': null,
+}
+
+export const hspMockObject: HspObject = {
+  'dimensions-display': ['187,5 × 70,5'],
+  'format-display': ['folio'],
+  'group-id': 'HSP-42c287a3-3459-32f2-a7c4-7a911d72cd18',
+  id: 'HSP-42c287a3-3459-32f2-a7c4-7a911d72cd18',
+  'idno-display': 'Tabula',
+  'illuminated-display': 'yes',
+  'language-display': ['la', 'de'],
+  'material-display': ['Pergament'],
+  'object-type-display': 'other',
+  'orig-date-lang-display': ['1493'],
+  'orig-place-display': ['Süddeutschland / Bayern (?)'],
+  'persistent-url-display':
+    'https://resolver.staatsbibliothek-berlin.de/HSP00035A1A00000000',
+  'repository-display': 'Staats- und Stadtbibliothek Augsburg',
+  'settlement-display': 'Augsburg',
+  'status-display': 'existent',
+  'title-display': 'Petrus Wagner',
+  type: 'hsp:object',
+  'settlement-authority-file-display': null,
+  'orig-place-authority-file-display': null,
+  'repository-authority-file-display': [],
+  'former-ms-identifier-display': null,
+  'has-notation-display': null,
+  'leaves-count-display': null,
+}

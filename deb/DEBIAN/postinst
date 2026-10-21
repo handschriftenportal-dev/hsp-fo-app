@@ -1,0 +1,41 @@
+#!/bin/sh
+
+set -e
+
+CONFDIR=/etc/SBB/hsp-fo-app
+RUNDIR=/run/SBB/hsp-fo-app
+LOGDIR=/data/log/hsp-fo-app
+TMPFILE=/etc/tmpfiles.d/hsp-fo-app-tmpfiles.conf
+ARTEFAKTID=hsp-fo-app
+
+case "$1" in
+  configure)
+    mkdir -p $RUNDIR
+    mkdir -p $LOGDIR
+    ln -sf $LOGDIR /var/log/SBB/hsp-fo-app
+
+    if ! getent passwd hsp-fo-app >/dev/null 2>&1; then
+      addgroup --system --gid 816 $ARTEFAKTID
+      adduser --system --uid 816 --gid 816 $ARTEFAKTID
+    fi
+        
+    chown -R $ARTEFAKTID:$ARTEFAKTID $CONFDIR
+    chown -R $ARTEFAKTID:$ARTEFAKTID $RUNDIR
+    chown -R $ARTEFAKTID:$ARTEFAKTID $LOGDIR
+    
+    chown root:root $TMPFILE
+  ;;
+	
+  abort-upgrade|abort-remove|abort-deconfigure)
+  ;;
+
+  *)
+    echo "postinst called with unknown argument \`$1'" >&2
+    exit 1
+  ;;
+esac
+
+update-rc.d $ARTEFAKTID defaults
+service $ARTEFAKTID restart
+
+exit 0
